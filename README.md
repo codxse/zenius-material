@@ -6,6 +6,12 @@ Current Material-UI version: 1.0.0-beta.40-0
 
 ## Usage
 
+[![Clojars Project](https://img.shields.io/clojars/v/zenius-material.svg)](https://clojars.org/zenius-material)
+
+```
+[zenius-material "0.1.0-SNAPSHOT"]
+```
+
 ```clj
 (ns my-namespace.core
   (:require [cljsjs.material-ui] ;; add this first
