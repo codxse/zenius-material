@@ -18,7 +18,7 @@ Current Material-UI version: 1.0.0-beta.40-0
             [reagent.core :as r]
             [zenius-material.components :as ui]
             [zenius-material.icons :as ic]
-            [zenius-material.styles :refer [->color]))
+            [zenius-material.styles :refer [color]))
 ```
 
 ### Example
@@ -29,7 +29,7 @@ Current Material-UI version: 1.0.0-beta.40-0
            [ui/CssBaseLine]
            [ui/Button {:variant "raised"
                        :color "primary"
-                       :style {:color (->color :yellow :300)}}
+                       :style {:color (color :yellow :300)}}
             "Hello from next MaterialUI"]
            [ui/Button {:variant "fab"
                        :color "secondary"}
