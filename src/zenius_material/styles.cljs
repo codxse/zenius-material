@@ -7,6 +7,6 @@
 ;; =============================================
 ;; helper fns
 
-(defn ->colors [color level]
-  (get-in colors [color level] #"000000"))
+(defn color [color_ level_]
+  (get-in colors [color_ level_] "#000000"))
 
