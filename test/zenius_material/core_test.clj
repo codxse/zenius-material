@@ -1,6 +1,5 @@
 (ns zenius-material.core-test
   (:require [clojure.test :refer :all]
-            [zenius-material.core :refer :all]
             [clojure.string :as string]))
 
 (defn exstract [colls]

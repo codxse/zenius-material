@@ -4,6 +4,8 @@ A ClojureScript reagent wrapper for Material-UI v1.x.
 
 Current Material-UI version: 1.0.0-beta.40-0
 
+Update "0.1.1": kebab-case style support, thanks to [madvas/cljs-react-material-ui](https://github.com/madvas/cljs-react-material-ui)
+
 ## Usage
 
 [![Clojars Project](https://img.shields.io/clojars/v/zenius-material.svg)](https://clojars.org/zenius-material)
