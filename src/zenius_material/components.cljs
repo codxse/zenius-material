@@ -1,6 +1,5 @@
 (ns zenius-material.components
-  (:require [cljsjs.material-ui]
-            [reagent.core :as r]))
+  (:require [reagent.core :as r]))
 
 ;; Classname style
 

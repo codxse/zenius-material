@@ -1,7 +1,5 @@
 (ns zenius-material.icons
-  (:require [cljsjs.material-ui]
-            [cljsjs.material-ui-svg-icons]
-            [reagent.core :as r]
+  (:require [reagent.core :as r]
             [cljs-react-material-ui.core :as m]))
 
 ;; Class style

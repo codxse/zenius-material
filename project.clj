@@ -1,4 +1,4 @@
-(defproject zenius-material "0.1.1"
+(defproject zenius-material "0.1.1-1"
   :description "A ClojureScript reagent wrapper for Material-UI v1.x"
   :url "https://github.com/codxse/zenius-material"
   :license {:name "Eclipse Public License"
