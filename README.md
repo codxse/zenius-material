@@ -2,7 +2,7 @@
 
 A ClojureScript reagent wrapper for Material-UI v1.x.
 
-Current Material-UI version: 1.0.0-beta.40-0
+Current Material-UI version: 1.2.1-0
 
 Update "0.1.1": kebab-case style support, thanks to [madvas/cljs-react-material-ui](https://github.com/madvas/cljs-react-material-ui)
 
@@ -11,7 +11,7 @@ Update "0.1.1": kebab-case style support, thanks to [madvas/cljs-react-material-
 [![Clojars Project](https://img.shields.io/clojars/v/zenius-material.svg)](https://clojars.org/zenius-material)
 
 ```
-[zenius-material "0.1.0-SNAPSHOT"]
+[zenius-material "0.1.1"]
 ```
 
 ```clj
@@ -38,7 +38,21 @@ Update "0.1.1": kebab-case style support, thanks to [madvas/cljs-react-material-
             "+"]
            [ic/Lock]]
          (js/document.getElementById "app"))
+```
 
+```clj
+
+(r/render [:<>
+           [ui/css-base-line]
+           [ui/button {:variant "raised"
+                       :color "primary"
+                       :style {:color (color :yellow :300)}}
+            "Hello from next MaterialUI"]
+           [ui/button {:variant "fab"
+                       :color "secondary"}
+            "+"]
+           [ic/lock]]
+         (js/document.getElementById "app"))
 ```
 
 ## License
