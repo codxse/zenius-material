@@ -1,3 +1,5 @@
+# This project is moved to [CLJS-MUI](https://clojars.org/id.nadiar/cljs-mui)
+
 # Zenius Material
 
 A ClojureScript reagent wrapper for Material-UI v1.x.
